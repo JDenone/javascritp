@@ -1,12 +1,11 @@
 console.log('hello word from external scripts');
 
+// var age = prompt('How old are you?');
+// var ageParser = parseInt(age);
 
-  var age = prompt('How old are you?');
-  var ageParser = parseInt(age);
-  
-  for (var a = 0; a < ageParser; a++) {
-    console.log(a);  
-  }
+for (var a = 0; a < ageParser; a++) {
+  console.log(a);
+}
 /*
 
   if (ageParser >= 18) {
@@ -47,3 +46,22 @@ for (var a = 0; a < 10; a++) {
 });
 
 */
+
+function mensage() {
+  alert("Não clique em mim!");
+}
+
+function mudaCor(cor) {
+  let element = document.getElementById("cores");
+  element.style.color = cor;
+}
+
+function mudaCorBg(bgCor) {
+  let element = document.getElementById("bgCores");
+  element.style.backgroundColor = bgCor;
+}
+
+function mudaTamanhoLetra(tam) {
+  let element = document.getElementById("tamanhos");
+  element.style.fontSize = tam;
+}

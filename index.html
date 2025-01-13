@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+<title>Home</title>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScritp - School of Net</title>
 </head>
+
 <body>
-  <script type="text/javascript">
-    console.log('hello word from scripts');
-  </script> 
+  <!-- <script type="text/javascript">
+    // console.log('hello word from scripts');
+  </script>  -->
   <script type="text/javascript" src="main.js"> </script>
+
+
+  <button onclick="mensage()"> Clique aqui </button>
+
+  </br></br>
+
+  <button onclick="mudaCor('blue')">Azul</button>
+  <button onclick="mudaCor('red')">Vermelho</button>
+  <span id="cores">Altera a cor da letra.</span>
+
+  </br></br>
+
+  <button onclick="mudaCorBg('blue')">Azul</button>
+  <button onclick="mudaCorBg('red')">Vermelho</button>
+  <span id="bgCores">Altera a cor do backgroudda letra.</span>
+
+  </br></br>
+
+  <button onclick="mudaTamanhoLetra('12px')">12</button>
+  <button onclick="mudaTamanhoLetra('24px')">24</button>
+  <button onclick="mudaTamanhoLetra('48px')">48</button>
+  <span id="tamanhos">Altera o tamanho da letra.</span>
 </body>
+
 </html>
